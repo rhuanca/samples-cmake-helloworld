@@ -6,10 +6,10 @@ set (CMakeHelloWorld_VERSION_MAJOR 1)
 set (CMakeHelloWorld_VERSION_MINOR 0)
 
 #include the subdirectory containing our libs
-add_subdirectory (src)
+# add_subdirectory (src)
 # include_directories(Hello)
 #indicate the entry point for the executable
-add_executable (CMakeHelloWorld Hello hello.cpp)
+add_executable (CMakeHelloWorld hello hello.cpp)
 
 # Indicate which libraries to include during the link process.
 # target_link_libraries (CMakeHelloWorld Hello)
